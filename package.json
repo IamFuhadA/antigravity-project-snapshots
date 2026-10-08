@@ -1,0 +1,66 @@
+{
+  "name": "antigravity-project-snapshots",
+  "displayName": "Antigravity Project Snapshots & Trash",
+  "description": "Global status bar extension for viewing, diffing, and restoring project-specific snapshots and deleted trash files in Google Antigravity & VS Code.",
+  "version": "1.0.0",
+  "publisher": "fuhad-15",
+  "author": {
+    "name": "fuhad-15",
+    "email": "wwwfuhad111@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuhad-15/antigravity-project-snapshots.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "SCM Providers"
+  ],
+  "keywords": [
+    "antigravity",
+    "snapshots",
+    "trash",
+    "recycle-bin",
+    "backup",
+    "restore",
+    "diff"
+  ],
+  "license": "MIT",
+  "activationEvents": [
+    "onStartupFinished",
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "antigravity.openProjectTrash",
+        "title": "Antigravity: View Project Trash",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "antigravity.openProjectSnapshots",
+        "title": "Antigravity: View Project Snapshots",
+        "icon": "$(history)"
+      },
+      {
+        "command": "antigravity.createProjectSnapshot",
+        "title": "Antigravity: Create Safety Snapshot",
+        "icon": "$(camera)"
+      },
+      {
+        "command": "antigravity.openSnapshotsDashboard",
+        "title": "Antigravity: Open Visual Contents Dashboard",
+        "icon": "$(layout)"
+      },
+      {
+        "command": "antigravity.openWindowsRecycleBin",
+        "title": "Antigravity: Open Windows Desktop Recycle Bin",
+        "icon": "$(trash)"
+      }
+    ]
+  }
+}
