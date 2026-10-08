@@ -3,14 +3,13 @@
   "displayName": "Antigravity Project Snapshots & Trash",
   "description": "Global status bar extension for viewing, diffing, and restoring project-specific snapshots and deleted trash files in Google Antigravity & VS Code.",
   "version": "1.0.0",
-  "publisher": "fuhad-15",
+  "publisher": "IamFuhadA",
   "author": {
-    "name": "fuhad-15",
-    "email": "wwwfuhad111@gmail.com"
+    "name": "IamFuhadA"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fuhad-15/antigravity-project-snapshots.git"
+    "url": "https://github.com/IamFuhadA/antigravity-project-snapshots.git"
   },
   "engines": {
     "vscode": "^1.75.0"
